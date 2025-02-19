@@ -1,0 +1,14 @@
+.custom-navbar {
+    background-color: #0C8C34 !important; /* Color de fondo personalizado */
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #050810 !important; /* Color del texto */
+    font-weight: bold;
+    font-size: 18px; /* Ajuste opcional para mejorar la visibilidad */
+  }
+  
+  .nav-link:hover {
+    color: #ffffff !important; /* Opcional: cambiar color al pasar el mouse */
+  }
+  

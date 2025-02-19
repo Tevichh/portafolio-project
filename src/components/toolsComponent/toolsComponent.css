@@ -1,0 +1,48 @@
+.toolsComponent {
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    color: #0C8C34;
+}
+
+.tools-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px;
+    background-color: #0C8C34;
+    border-radius: 10px;
+}
+
+.tool {
+    background-color: #004400;
+    padding: 1rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+    min-width: 100px;
+}
+
+.tool img {
+    width: 30px;
+    height: 30px;
+}
+
+.tool p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0C8C34;
+}
+
+.tool:hover {
+    transform: translateY(-5px);
+}
